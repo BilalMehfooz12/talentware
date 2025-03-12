@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk+Display:wght@400;700&display=swap");
+
+@import "tailwindcss";
+@tailwind utilities;
+
+body {
+  font-family: "Neue Haas Grotesk Display", sans-serif;
+}
+
+.primary {
+  color: #0154aa;
+}
+
+.bg-primary {
+  background-color: #0154aa;
+}
+
+.gray-100 {
+  background-color: #f4f4f4;
+}
+
+.gray-200 {
+  color: #737a91;
+}
+
+.gray-300 {
+  color: #333333;
+}
+
+.gray-400 {
+  color: #585d6e;
+}
+
+.gray-500 {
+  color: #e9ecef;
+}
+
+.card-text {
+  font-size: 10px;
+}
+
+.hide-nav-item {
+  display: block !important;
+}
+
+.show-nav-item {
+  display: none !important;
+}
+
+@media (max-width: 3000px) and (min-width: 1550px) {
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+@layer utilities {
+  @media (max-width: 1300px) and (min-width: 1024px) {
+    .user-profile {
+      grid-column: span 12 / span 12;
+    }
+
+    .card {
+      grid-column: span 12 / span 12;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 1300px) and (min-width: 1024px) {
+  .hide-nav-item {
+    display: none !important;
+  }
+
+  .show-nav-item {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1025px) {
+  .hide-nav-item {
+    display: none !important;
+  }
+
+  .show-nav-item {
+    display: block !important;
+  }
+}
