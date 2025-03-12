@@ -153,7 +153,7 @@ const FindJobs = () => {
                       <Input
                         type="select"
                         selectedValue="Select Location"
-                        selectStyle="gray-400 focus:outline-none font-[500] text-[14px] md:mr-[20px] px-2"
+                        selectStyle="gray-400 focus:outline-none font-[500] text-[14px] md:mr-[20px] px-2 mr-[10px]"
                         data={locationData}
                         handleSelect={handleSelectLocation}
                         value={selectLocation}
@@ -163,7 +163,7 @@ const FindJobs = () => {
                     <Input
                       type="select"
                       selectedValue="Job Type"
-                      selectStyle="gray-400 focus:outline-none md:mx-[20px] font-[500] text-[14px]"
+                      selectStyle="gray-400 focus:outline-none md:mx-[20px] mx-[8px] font-[500] text-[14px]"
                       data={jobsData}
                       handleSelect={handleSelectJob}
                       value={selectJob}
