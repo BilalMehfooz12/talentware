@@ -205,7 +205,7 @@ const FindJobs = () => {
                 />
               </div>
             </div>
-            <div className="flex items-center mt-[15px] ga  p-x-[15px]">
+            <div className="flex items-center mt-[15px] gap-x-[15px]">
               <div>
                 <p className="font-[500] text-[18px] gray-300">Featured Jobs</p>
               </div>
